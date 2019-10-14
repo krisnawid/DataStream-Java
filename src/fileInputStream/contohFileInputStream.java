@@ -18,6 +18,7 @@ public class contohFileInputStream {
             int i = 0;
             while ((i = data.read()) !=-1) {                
                 System.out.print((char)i);
+                //add some looping for every char data
             }
             
         } catch (Exception e) {
