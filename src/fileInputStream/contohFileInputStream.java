@@ -18,6 +18,8 @@ public class contohFileInputStream {
             int i = 0;
             while ((i = data.read()) !=-1) {                
                 System.out.print((char)i);
+                //Loop from while data stream
+               
             }
             
         } catch (Exception e) {
